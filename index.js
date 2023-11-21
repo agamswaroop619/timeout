@@ -13,7 +13,7 @@ function openNewTab(imageUrl) {
 // Function to fetch image URL from an API
 function fetchImageUrl() {
   const accessKey = '1yMmCBil52fEDEXjurr-nlzYLYueM8MZM48Rj03pjsI'; // Replace with your actual Unsplash access key
-  const query = 'london'; // Replace with your desired query
+  const query = 'horror'; // Replace with your desired query
 
   const requestUrl = `https://api.unsplash.com/search/photos?query=${query}&client_id=${accessKey}`;
 

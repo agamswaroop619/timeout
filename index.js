@@ -44,6 +44,8 @@ chrome.runtime.onMessage.addListener(function(message) {
       // Set a fixed interval of 1 hour (in milliseconds)
       let randomnmber =Math.random();
       const interval = randomnmber *60*60*1000;
+      if(interval>3600000 || interval < 600000)
+      interval = 600000;
       timerInterval = setInterval(fetchImageUrl, interval);
     }
   } else if (message.action === 'stopTimer') {

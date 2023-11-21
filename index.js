@@ -15,7 +15,8 @@ chrome.runtime.onMessage.addListener(function(message) {
   if (message.action === 'startTimer') {
     // Start the timer if not already running
     if (!timerInterval) {
-      timerInterval = setInterval(openNewTab, 10 * 60 * 1000); // 10 minutes in milliseconds
+      let randomnmber =Math.random();
+      timerInterval = setInterval(openNewTab, randomnmber*100000); 
     }
   } else if (message.action === 'stopTimer') {
     // Stop the timer

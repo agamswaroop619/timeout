@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Timeout",
+    "description": "A little break from the screen's bright gleam, Nature calls with a friendly, peaceful beam.",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "ace.png"
+    }
+  }

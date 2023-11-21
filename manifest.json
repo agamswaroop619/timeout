@@ -3,6 +3,13 @@
     "name": "Timeout",
     "description": "A little break from the screen's bright gleam, Nature calls with a friendly, peaceful beam.",
     "version": "1.0",
+    "background": {
+      "service_worker": "index.js",
+      "type": "module"
+    },
+    "permissions": [
+      "tabs"
+    ],
     "action": {
       "default_popup": "index.html",
       "default_icon": "ace.png"

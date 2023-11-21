@@ -1,0 +1,57 @@
+.container{
+    
+    background: black;
+    margin: 40px;
+  width: 100%;
+  height: 500px;
+  border: 1px solid grey;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    
+}
+.div2{
+  margin-bottom: 70px;
+    
+}
+#startTimer{
+    width: 100px;
+    height: 60px;
+    background:black;
+    color: beige;
+    border: none;
+    transition: 0.5s;
+}
+#startTimer:hover{
+    background: yellow;
+    color: black;
+    border-radius: 25px;
+    width: 150px;
+    height: 80px;
+}
+#stopTimer{
+    width: 100px;
+    height: 60px;
+    border: none;
+    background:black;
+    color: beige;
+    transition: 0.5s;
+    margin-top: 25px;
+}
+#stopTimer:hover{
+    background: yellow;
+    color: black;
+    border-radius: 25px;
+    width: 150px;
+    height: 80px;
+}
+#mainHeading{
+    color: whitesmoke;
+    transition: 0.40s;
+}
+#mainHeading:hover{
+    color: #E6C229;
+}
+
